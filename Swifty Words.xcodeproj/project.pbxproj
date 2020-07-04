@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2E176CF24B017AC00513B12 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2E176CE24B017AC00513B12 /* level1.txt */; };
+		F2E176D124B0FB4100513B12 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2E176D024B0FB4100513B12 /* level2.txt */; };
 		F2F51F222494484D00E17BEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F51F212494484D00E17BEE /* AppDelegate.swift */; };
 		F2F51F242494484D00E17BEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F51F232494484D00E17BEE /* SceneDelegate.swift */; };
 		F2F51F262494484D00E17BEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F51F252494484D00E17BEE /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2E176CE24B017AC00513B12 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		F2E176D024B0FB4100513B12 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 		F2F51F1E2494484D00E17BEE /* Swifty Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swifty Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F51F212494484D00E17BEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2F51F232494484D00E17BEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 		F2F51F202494484D00E17BEE /* Swifty Words */ = {
 			isa = PBXGroup;
 			children = (
+				F2E176D024B0FB4100513B12 /* level2.txt */,
+				F2E176CE24B017AC00513B12 /* level1.txt */,
 				F2F51F212494484D00E17BEE /* AppDelegate.swift */,
 				F2F51F232494484D00E17BEE /* SceneDelegate.swift */,
 				F2F51F252494484D00E17BEE /* ViewController.swift */,
@@ -128,7 +134,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2E176D124B0FB4100513B12 /* level2.txt in Resources */,
 				F2F51F312494485000E17BEE /* LaunchScreen.storyboard in Resources */,
+				F2E176CF24B017AC00513B12 /* level1.txt in Resources */,
 				F2F51F2E2494485000E17BEE /* Assets.xcassets in Resources */,
 				F2F51F292494484D00E17BEE /* Main.storyboard in Resources */,
 			);
